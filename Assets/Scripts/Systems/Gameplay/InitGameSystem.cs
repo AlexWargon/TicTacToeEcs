@@ -35,6 +35,7 @@ namespace TicTacToeEcs {
                         scaleX = _configs.OffsetSize,
                         scaleY = _configs.OffsetSize
                     });
+                    EntityManager.AddComponent<Static>(entity);
                 }
 
                 _runTimeData.CurrentSign = Random.value > 0.5f ? SignType.Circle : SignType.Cross;

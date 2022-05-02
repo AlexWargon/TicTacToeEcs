@@ -29,7 +29,8 @@ namespace TicTacToeEcs {
                     EntityManager.AddComponentData(cell, sing);
                     var signView = EntityManager.Instantiate(_prefabs[sing.value]);
                     EntityManager.AddComponentData(signView, translation);
-
+                    EntityManager.AddComponent<Static>(signView);
+                    EntityManager.RemoveComponent<Prefab>(signView);
                     EntityManager.RemoveComponent<ClickTakenEvent>(cell);
                     EntityManager.AddComponent<CheckWinEvent>(cell);
                     
