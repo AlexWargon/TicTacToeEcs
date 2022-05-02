@@ -13,13 +13,14 @@ namespace TicTacToeEcs {
             Service<GameRunTimeData>.Set(new GameRunTimeData());
             Service<ScreenService>.Set(_screenService);
             Service<GameBoot>.Set(this);
+        }
+
+        public void InitGame() {
             var world = World.DefaultGameObjectInjectionWorld;
             var manager = world.EntityManager;
             var initEntity = manager.CreateEntity();
-
             manager.AddComponentData(initEntity, new InitGameEvent());
         }
-
         public void DestroyEcs() {
             var world = World.DefaultGameObjectInjectionWorld;
             var manager = world.EntityManager;
