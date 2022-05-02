@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd685f864df44135a947675685722e9e, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  Size: 5
+  OffsetSize: 1
+  CellPrefab: {fileID: 2895255681527207211, guid: 82d20021df9ed494b826458c89952729, type: 3}
+  CrossPrefab: {fileID: 8326742217709664917, guid: 3f5dc95ea2bc63b4f826cd6440a18cc9, type: 3}
+  CirclePrefab: {fileID: 647842959565539820, guid: ff05a4ab2350d804f8523bb447a11348, type: 3}
