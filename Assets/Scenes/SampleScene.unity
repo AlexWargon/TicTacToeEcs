@@ -1017,8 +1017,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.7, y: -36.1}
-  m_SizeDelta: {x: 253.207, y: 75}
+  m_AnchoredPosition: {x: 0, y: -36.1}
+  m_SizeDelta: {x: 524.859, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645444525
 MonoBehaviour:
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WIN!
+  m_text: GAME OVER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d82d00c04c21fc240a22ef7e62c687ff, type: 2}
   m_sharedMaterial: {fileID: 5754813581514928337, guid: d82d00c04c21fc240a22ef7e62c687ff, type: 2}
